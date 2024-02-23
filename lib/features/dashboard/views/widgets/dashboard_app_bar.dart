@@ -2,9 +2,7 @@ import 'package:adaptive_dashboard/common/helpers/size_config.dart';
 import 'package:flutter/material.dart';
 
 class DashboardAppBar extends StatelessWidget implements PreferredSizeWidget {
-  const DashboardAppBar({
-    super.key,
-  });
+  const DashboardAppBar({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +13,9 @@ class DashboardAppBar extends StatelessWidget implements PreferredSizeWidget {
       child: AppBar(
         leading: IconButton(
           icon: const Icon(Icons.menu),
-          onPressed: () {},
+          onPressed: () {
+            Scaffold.of(context).openDrawer();
+          },
         ),
       ),
     );

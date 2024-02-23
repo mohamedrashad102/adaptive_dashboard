@@ -8,8 +8,8 @@ import 'widgets/account_options_list_view.dart';
 import 'widgets/gallery_image.dart';
 import 'widgets/main_options_list_view.dart';
 
-class CustomDrawer extends StatelessWidget {
-  const CustomDrawer({super.key});
+class CustomDrawerView extends StatelessWidget {
+  const CustomDrawerView({super.key});
 
   static const user = UserInfoModel(
     photoSrc: AppAssets.imagesFrame,

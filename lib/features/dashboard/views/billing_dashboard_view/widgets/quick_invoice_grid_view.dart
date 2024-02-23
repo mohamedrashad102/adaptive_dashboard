@@ -32,7 +32,7 @@ class QuickInvoiceGridView extends StatelessWidget {
             crossAxisSpacing: 16,
             mainAxisSpacing: 24,
             childAspectRatio: (constraints.maxWidth / 2 - 8) /
-                100, // 8 because padding between them is 16 , 100 refer to hight
+                105, // 8 because padding between them is 16 , 105 refer to hight
           ),
           itemBuilder: (context, index) => CustomQuickInvoiceTextField(
             hintText: hintsText[index],

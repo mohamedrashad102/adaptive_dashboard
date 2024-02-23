@@ -13,7 +13,7 @@ class TabletLayout extends StatelessWidget {
       children: [
         Expanded(
           flex: 1,
-          child: CustomDrawer(),
+          child: CustomDrawerView(),
         ),
         Gap(20),
         Expanded(

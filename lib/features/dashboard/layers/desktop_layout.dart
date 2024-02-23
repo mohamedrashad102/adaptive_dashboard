@@ -14,8 +14,8 @@ class DesktopLayout extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Expanded(
-          flex:2,
-          child: CustomDrawer(),
+          flex: 2,
+          child: CustomDrawerView(),
         ),
         Gap(20),
         Expanded(
